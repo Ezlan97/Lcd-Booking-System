@@ -1,0 +1,1 @@
+<form action="{{ route('setLive', $all->id)}}" method="post" enctype="multipart/form-data"> {{ csrf_field() }} <button class="btn btn-success" type="submit" name="live" value="1">set available</button></form>
